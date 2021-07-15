@@ -7,25 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2107497C269ED4EC00D023B1 /* NodesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2107497A269ED4EC00D023B1 /* NodesListViewController.swift */; };
+		2107497D269ED4EC00D023B1 /* NodesListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2107497B269ED4EC00D023B1 /* NodesListViewController.xib */; };
+		21074981269ED57000D023B1 /* NodeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2107497F269ED57000D023B1 /* NodeListTableViewCell.swift */; };
+		21074982269ED57000D023B1 /* NodeListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21074980269ED57000D023B1 /* NodeListTableViewCell.xib */; };
+		2107498F269EDD3400D023B1 /* NodeObject+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2107498E269EDD3400D023B1 /* NodeObject+CoreDataClass.swift */; };
+		21074991269EDD6C00D023B1 /* NodeObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21074990269EDD6C00D023B1 /* NodeObject+CoreDataProperties.swift */; };
+		21074994269EDD7400D023B1 /* ServerObject+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21074992269EDD7300D023B1 /* ServerObject+CoreDataClass.swift */; };
+		21074995269EDD7400D023B1 /* ServerObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21074993269EDD7300D023B1 /* ServerObject+CoreDataProperties.swift */; };
+		21074998269EDDD100D023B1 /* ServerObject+DomainMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21074997269EDDD100D023B1 /* ServerObject+DomainMapping.swift */; };
+		2107499A269EDE2500D023B1 /* NodeObject+DomainMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21074999269EDE2500D023B1 /* NodeObject+DomainMapping.swift */; };
+		2133D514269EF2FA00CC686F /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2133D513269EF2FA00CC686F /* UIViewControllerExtension.swift */; };
 		214DEFCE269DA2A700D2FEF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214DEFCD269DA2A700D2FEF1 /* AppDelegate.swift */; };
 		214DEFD0269DA2A700D2FEF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214DEFCF269DA2A700D2FEF1 /* SceneDelegate.swift */; };
-		214DEFD2269DA2A700D2FEF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214DEFD1269DA2A700D2FEF1 /* ViewController.swift */; };
-		214DEFD5269DA2A700D2FEF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214DEFD3269DA2A700D2FEF1 /* Main.storyboard */; };
+		214DEFD2269DA2A700D2FEF1 /* ServersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214DEFD1269DA2A700D2FEF1 /* ServersListViewController.swift */; };
 		214DEFD8269DA2A700D2FEF1 /* VPNConnector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 214DEFD6269DA2A700D2FEF1 /* VPNConnector.xcdatamodeld */; };
 		214DEFDA269DA2A800D2FEF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214DEFD9269DA2A800D2FEF1 /* Assets.xcassets */; };
 		214DEFDD269DA2A800D2FEF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214DEFDB269DA2A800D2FEF1 /* LaunchScreen.storyboard */; };
+		214DEFE9269DA33400D2FEF1 /* URLSessionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214DEFE8269DA33400D2FEF1 /* URLSessionExtension.swift */; };
+		214DEFEB269DA51300D2FEF1 /* NetworkTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214DEFEA269DA51300D2FEF1 /* NetworkTypes.swift */; };
+		214DEFEE269DA64D00D2FEF1 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214DEFED269DA64D00D2FEF1 /* Server.swift */; };
+		214DEFF0269DA65100D2FEF1 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214DEFEF269DA65100D2FEF1 /* Node.swift */; };
+		214DEFF2269DA72300D2FEF1 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214DEFF1269DA72300D2FEF1 /* ApiService.swift */; };
+		214DEFF5269DA86A00D2FEF1 /* ServerApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214DEFF4269DA86A00D2FEF1 /* ServerApiService.swift */; };
+		214DEFF7269DA87400D2FEF1 /* DataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214DEFF6269DA87400D2FEF1 /* DataContainer.swift */; };
+		214DEFFC269DAA2500D2FEF1 /* ServerApiRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214DEFFB269DAA2500D2FEF1 /* ServerApiRoute.swift */; };
+		214DF000269DAC8600D2FEF1 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214DEFFF269DAC8600D2FEF1 /* CoreDataStack.swift */; };
+		214DF002269DAE7500D2FEF1 /* PersistencyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214DF001269DAE7500D2FEF1 /* PersistencyService.swift */; };
+		214DF006269DB22000D2FEF1 /* VPNService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214DF005269DB22000D2FEF1 /* VPNService.swift */; };
+		214DF009269DB5F800D2FEF1 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214DF008269DB5F800D2FEF1 /* KeychainService.swift */; };
+		214DF014269DF7AD00D2FEF1 /* ServerListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214DF012269DF7AD00D2FEF1 /* ServerListTableViewCell.swift */; };
+		214DF015269DF7AD00D2FEF1 /* ServerListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 214DF013269DF7AD00D2FEF1 /* ServerListTableViewCell.xib */; };
+		214DF019269ECF9200D2FEF1 /* ServerDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214DF018269ECF9200D2FEF1 /* ServerDataProvider.swift */; };
+		214DF01B269ECFAA00D2FEF1 /* ServersListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 214DF01A269ECFAA00D2FEF1 /* ServersListViewController.xib */; };
+		214DF01D269ED13400D2FEF1 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214DF01C269ED13400D2FEF1 /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2107497A269ED4EC00D023B1 /* NodesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodesListViewController.swift; sourceTree = "<group>"; };
+		2107497B269ED4EC00D023B1 /* NodesListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NodesListViewController.xib; sourceTree = "<group>"; };
+		2107497F269ED57000D023B1 /* NodeListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeListTableViewCell.swift; sourceTree = "<group>"; };
+		21074980269ED57000D023B1 /* NodeListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NodeListTableViewCell.xib; sourceTree = "<group>"; };
+		2107498E269EDD3400D023B1 /* NodeObject+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NodeObject+CoreDataClass.swift"; sourceTree = "<group>"; };
+		21074990269EDD6C00D023B1 /* NodeObject+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NodeObject+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		21074992269EDD7300D023B1 /* ServerObject+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ServerObject+CoreDataClass.swift"; sourceTree = "<group>"; };
+		21074993269EDD7300D023B1 /* ServerObject+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ServerObject+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		21074997269EDDD100D023B1 /* ServerObject+DomainMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ServerObject+DomainMapping.swift"; sourceTree = "<group>"; };
+		21074999269EDE2500D023B1 /* NodeObject+DomainMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NodeObject+DomainMapping.swift"; sourceTree = "<group>"; };
+		2133D513269EF2FA00CC686F /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		214DEFCA269DA2A700D2FEF1 /* VPNConnector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPNConnector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		214DEFCD269DA2A700D2FEF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		214DEFCF269DA2A700D2FEF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		214DEFD1269DA2A700D2FEF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		214DEFD4269DA2A700D2FEF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		214DEFD1269DA2A700D2FEF1 /* ServersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersListViewController.swift; sourceTree = "<group>"; };
 		214DEFD7269DA2A700D2FEF1 /* VPNConnector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VPNConnector.xcdatamodel; sourceTree = "<group>"; };
 		214DEFD9269DA2A800D2FEF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		214DEFDC269DA2A800D2FEF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		214DEFDE269DA2A800D2FEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214DEFE8269DA33400D2FEF1 /* URLSessionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionExtension.swift; sourceTree = "<group>"; };
+		214DEFEA269DA51300D2FEF1 /* NetworkTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTypes.swift; sourceTree = "<group>"; };
+		214DEFED269DA64D00D2FEF1 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		214DEFEF269DA65100D2FEF1 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		214DEFF1269DA72300D2FEF1 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		214DEFF4269DA86A00D2FEF1 /* ServerApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerApiService.swift; sourceTree = "<group>"; };
+		214DEFF6269DA87400D2FEF1 /* DataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContainer.swift; sourceTree = "<group>"; };
+		214DEFFB269DAA2500D2FEF1 /* ServerApiRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerApiRoute.swift; sourceTree = "<group>"; };
+		214DEFFF269DAC8600D2FEF1 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		214DF001269DAE7500D2FEF1 /* PersistencyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistencyService.swift; sourceTree = "<group>"; };
+		214DF005269DB22000D2FEF1 /* VPNService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNService.swift; sourceTree = "<group>"; };
+		214DF008269DB5F800D2FEF1 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		214DF00A269DBFFF00D2FEF1 /* VPNConnector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VPNConnector.entitlements; sourceTree = "<group>"; };
+		214DF012269DF7AD00D2FEF1 /* ServerListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerListTableViewCell.swift; sourceTree = "<group>"; };
+		214DF013269DF7AD00D2FEF1 /* ServerListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServerListTableViewCell.xib; sourceTree = "<group>"; };
+		214DF018269ECF9200D2FEF1 /* ServerDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerDataProvider.swift; sourceTree = "<group>"; };
+		214DF01A269ECFAA00D2FEF1 /* ServersListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServersListViewController.xib; sourceTree = "<group>"; };
+		214DF01C269ED13400D2FEF1 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +94,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2107497E269ED56100D023B1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2107497F269ED57000D023B1 /* NodeListTableViewCell.swift */,
+				21074980269ED57000D023B1 /* NodeListTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		21074983269ED5D000D023B1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2133D513269EF2FA00CC686F /* UIViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2107498C269EDC9900D023B1 /* Node */ = {
+			isa = PBXGroup;
+			children = (
+				2107498E269EDD3400D023B1 /* NodeObject+CoreDataClass.swift */,
+				21074990269EDD6C00D023B1 /* NodeObject+CoreDataProperties.swift */,
+				21074999269EDE2500D023B1 /* NodeObject+DomainMapping.swift */,
+			);
+			path = Node;
+			sourceTree = "<group>";
+		};
+		2107498D269EDC9F00D023B1 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				21074992269EDD7300D023B1 /* ServerObject+CoreDataClass.swift */,
+				21074993269EDD7300D023B1 /* ServerObject+CoreDataProperties.swift */,
+				21074997269EDDD100D023B1 /* ServerObject+DomainMapping.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
 		214DEFC1269DA2A600D2FEF1 = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +150,167 @@
 		214DEFCC269DA2A700D2FEF1 /* VPNConnector */ = {
 			isa = PBXGroup;
 			children = (
-				214DEFCD269DA2A700D2FEF1 /* AppDelegate.swift */,
-				214DEFCF269DA2A700D2FEF1 /* SceneDelegate.swift */,
-				214DEFD1269DA2A700D2FEF1 /* ViewController.swift */,
-				214DEFD3269DA2A700D2FEF1 /* Main.storyboard */,
+				214DF00A269DBFFF00D2FEF1 /* VPNConnector.entitlements */,
+				214DEFE6269DA2C400D2FEF1 /* Presentation */,
+				214DEFE5269DA2C100D2FEF1 /* Service */,
+				214DEFE4269DA2B000D2FEF1 /* Application */,
 				214DEFD9269DA2A800D2FEF1 /* Assets.xcassets */,
 				214DEFDB269DA2A800D2FEF1 /* LaunchScreen.storyboard */,
 				214DEFDE269DA2A800D2FEF1 /* Info.plist */,
 				214DEFD6269DA2A700D2FEF1 /* VPNConnector.xcdatamodeld */,
 			);
 			path = VPNConnector;
+			sourceTree = "<group>";
+		};
+		214DEFE4269DA2B000D2FEF1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				21074983269ED5D000D023B1 /* Extensions */,
+				214DEFCD269DA2A700D2FEF1 /* AppDelegate.swift */,
+				214DEFCF269DA2A700D2FEF1 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		214DEFE5269DA2C100D2FEF1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				214DF003269DB18900D2FEF1 /* Managed Objects */,
+				214DEFF3269DA85F00D2FEF1 /* Services */,
+				214DEFEC269DA63800D2FEF1 /* Entities */,
+				214DEFE7269DA2F400D2FEF1 /* Infrastructure */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		214DEFE6269DA2C400D2FEF1 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				214DF017269ECF8200D2FEF1 /* Data Providers */,
+				214DF016269ECF6C00D2FEF1 /* Scenes */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		214DEFE7269DA2F400D2FEF1 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				214DF007269DB5F100D2FEF1 /* Keychain */,
+				214DF004269DB21900D2FEF1 /* VPN */,
+				214DEFFE269DAC7C00D2FEF1 /* Core Data */,
+				214DEFFD269DAC7300D2FEF1 /* Networking */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		214DEFEC269DA63800D2FEF1 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				214DEFED269DA64D00D2FEF1 /* Server.swift */,
+				214DEFEF269DA65100D2FEF1 /* Node.swift */,
+				214DEFF6269DA87400D2FEF1 /* DataContainer.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		214DEFF3269DA85F00D2FEF1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				214DEFF4269DA86A00D2FEF1 /* ServerApiService.swift */,
+				214DEFFB269DAA2500D2FEF1 /* ServerApiRoute.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		214DEFFD269DAC7300D2FEF1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				214DEFE8269DA33400D2FEF1 /* URLSessionExtension.swift */,
+				214DEFEA269DA51300D2FEF1 /* NetworkTypes.swift */,
+				214DEFF1269DA72300D2FEF1 /* ApiService.swift */,
+				214DF01C269ED13400D2FEF1 /* Reachability.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		214DEFFE269DAC7C00D2FEF1 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				214DEFFF269DAC8600D2FEF1 /* CoreDataStack.swift */,
+				214DF001269DAE7500D2FEF1 /* PersistencyService.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		214DF003269DB18900D2FEF1 /* Managed Objects */ = {
+			isa = PBXGroup;
+			children = (
+				2107498D269EDC9F00D023B1 /* Server */,
+				2107498C269EDC9900D023B1 /* Node */,
+			);
+			path = "Managed Objects";
+			sourceTree = "<group>";
+		};
+		214DF004269DB21900D2FEF1 /* VPN */ = {
+			isa = PBXGroup;
+			children = (
+				214DF005269DB22000D2FEF1 /* VPNService.swift */,
+			);
+			path = VPN;
+			sourceTree = "<group>";
+		};
+		214DF007269DB5F100D2FEF1 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				214DF008269DB5F800D2FEF1 /* KeychainService.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		214DF00B269DC9BD00D2FEF1 /* Servers List */ = {
+			isa = PBXGroup;
+			children = (
+				214DF011269DF79E00D2FEF1 /* Cell */,
+				214DEFD1269DA2A700D2FEF1 /* ServersListViewController.swift */,
+				214DF01A269ECFAA00D2FEF1 /* ServersListViewController.xib */,
+			);
+			path = "Servers List";
+			sourceTree = "<group>";
+		};
+		214DF010269DF79900D2FEF1 /* Nodes List */ = {
+			isa = PBXGroup;
+			children = (
+				2107497E269ED56100D023B1 /* Cell */,
+				2107497A269ED4EC00D023B1 /* NodesListViewController.swift */,
+				2107497B269ED4EC00D023B1 /* NodesListViewController.xib */,
+			);
+			path = "Nodes List";
+			sourceTree = "<group>";
+		};
+		214DF011269DF79E00D2FEF1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				214DF012269DF7AD00D2FEF1 /* ServerListTableViewCell.swift */,
+				214DF013269DF7AD00D2FEF1 /* ServerListTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		214DF016269ECF6C00D2FEF1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				214DF010269DF79900D2FEF1 /* Nodes List */,
+				214DF00B269DC9BD00D2FEF1 /* Servers List */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		214DF017269ECF8200D2FEF1 /* Data Providers */ = {
+			isa = PBXGroup;
+			children = (
+				214DF018269ECF9200D2FEF1 /* ServerDataProvider.swift */,
+			);
+			path = "Data Providers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +371,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				214DEFDD269DA2A800D2FEF1 /* LaunchScreen.storyboard in Resources */,
+				21074982269ED57000D023B1 /* NodeListTableViewCell.xib in Resources */,
+				214DF015269DF7AD00D2FEF1 /* ServerListTableViewCell.xib in Resources */,
 				214DEFDA269DA2A800D2FEF1 /* Assets.xcassets in Resources */,
-				214DEFD5269DA2A700D2FEF1 /* Main.storyboard in Resources */,
+				2107497D269ED4EC00D023B1 /* NodesListViewController.xib in Resources */,
+				214DF01B269ECFAA00D2FEF1 /* ServersListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,24 +386,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21074998269EDDD100D023B1 /* ServerObject+DomainMapping.swift in Sources */,
+				214DEFF2269DA72300D2FEF1 /* ApiService.swift in Sources */,
+				214DEFEE269DA64D00D2FEF1 /* Server.swift in Sources */,
+				2107499A269EDE2500D023B1 /* NodeObject+DomainMapping.swift in Sources */,
+				21074994269EDD7400D023B1 /* ServerObject+CoreDataClass.swift in Sources */,
+				214DF01D269ED13400D2FEF1 /* Reachability.swift in Sources */,
+				214DEFE9269DA33400D2FEF1 /* URLSessionExtension.swift in Sources */,
+				2107498F269EDD3400D023B1 /* NodeObject+CoreDataClass.swift in Sources */,
 				214DEFD8269DA2A700D2FEF1 /* VPNConnector.xcdatamodeld in Sources */,
-				214DEFD2269DA2A700D2FEF1 /* ViewController.swift in Sources */,
+				21074991269EDD6C00D023B1 /* NodeObject+CoreDataProperties.swift in Sources */,
+				214DF014269DF7AD00D2FEF1 /* ServerListTableViewCell.swift in Sources */,
+				214DEFF7269DA87400D2FEF1 /* DataContainer.swift in Sources */,
+				2133D514269EF2FA00CC686F /* UIViewControllerExtension.swift in Sources */,
+				214DF002269DAE7500D2FEF1 /* PersistencyService.swift in Sources */,
+				214DEFF0269DA65100D2FEF1 /* Node.swift in Sources */,
+				214DF000269DAC8600D2FEF1 /* CoreDataStack.swift in Sources */,
+				214DEFD2269DA2A700D2FEF1 /* ServersListViewController.swift in Sources */,
+				214DEFF5269DA86A00D2FEF1 /* ServerApiService.swift in Sources */,
+				2107497C269ED4EC00D023B1 /* NodesListViewController.swift in Sources */,
+				21074995269EDD7400D023B1 /* ServerObject+CoreDataProperties.swift in Sources */,
+				214DF019269ECF9200D2FEF1 /* ServerDataProvider.swift in Sources */,
 				214DEFCE269DA2A700D2FEF1 /* AppDelegate.swift in Sources */,
+				214DF006269DB22000D2FEF1 /* VPNService.swift in Sources */,
+				21074981269ED57000D023B1 /* NodeListTableViewCell.swift in Sources */,
+				214DEFEB269DA51300D2FEF1 /* NetworkTypes.swift in Sources */,
+				214DF009269DB5F800D2FEF1 /* KeychainService.swift in Sources */,
 				214DEFD0269DA2A700D2FEF1 /* SceneDelegate.swift in Sources */,
+				214DEFFC269DAA2500D2FEF1 /* ServerApiRoute.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		214DEFD3269DA2A700D2FEF1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				214DEFD4269DA2A700D2FEF1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		214DEFDB269DA2A800D2FEF1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -290,14 +552,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VPNConnector/VPNConnector.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L37HD3MW86;
+				DEVELOPMENT_TEAM = Z8YT8A2XZ2;
 				INFOPLIST_FILE = VPNConnector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ek.VPNConnector;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ek.VPNConnector1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,14 +572,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VPNConnector/VPNConnector.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L37HD3MW86;
+				DEVELOPMENT_TEAM = Z8YT8A2XZ2;
 				INFOPLIST_FILE = VPNConnector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ek.VPNConnector;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ek.VPNConnector1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
